@@ -1,0 +1,93 @@
+<!-- <<p>view-app works!</p> -->
+<!-- <head>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+		crossorigin="anonymous"></script>
+
+</head> -->
+<style>
+    table, th, td {
+        border: 1px solid black;
+        font-size: 16px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    table {
+        align-content: center;
+        width:100%;
+    }
+    th, td {
+        padding: 10px;
+    }
+    .center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h3 {
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        color: blueviolet;
+        background-color: rgb(233, 224, 242);
+    }
+    /* body {
+        background-color: #CCD3FF;
+    } */
+</style>
+
+<html>
+    <body>
+    <br>
+    <h3>VIEW APPOINTMENT</h3>
+    <br>
+    <table class="center">
+        <tr><td>Sl. No</td><td>Name<td>Phone<td>Email<td>Age<td>Complete Address<td>Trainer Preference<td>
+        Physico requried<td>Package<td>Amount</tr>
+            <tr>
+                <td>1</td><td>Bhoomika</td><td>9988776655</td><td>bhoomika@yahoo.com</td><td>20</td>
+                <td>Bangalore</td><td>Female Trainer</td><td>No</td><td>One time Appointment</td><td>500</td>
+            </tr>
+    
+            <tr>
+                <td>2</td><td>Apoorva</td><td>9812345678</td><td>apoorva@gamil.com</td><td>22</td>
+                <td>Hydrabad</td><td>Female Trainer</td><td>No</td><td>4 sessions per week</td><td>400</td>
+            </tr>
+    
+            <tr>
+                <td>3</td><td>Sunil</td><td>6655443322</td><td>sunil@gmail.com</td><td>37</td>
+                <td>Chennai</td><td>Male Trainer</td><td>Yes</td><td>One time appointment</td><td>500</td>
+            </tr>
+    
+            <tr>
+                <td>4</td><td>Mandara</td><td>9876543276</td><td>mandara@hotmail.com</td><td>10</td>
+                <td>Bangalore</td><td>No Preference</td><td>No</td><td>5 sessions per week</td><td>300</td>
+            </tr>
+    
+    </table>
+</body>
+
+<br><br><br><br><br><br><br><br><br><br><br>
+<div class="w3-display-bottomright">
+    <table class="w3-table" border="2px" width="100%">
+      <tr>
+        <th>Useful links</th>
+        <th>Contact</th>
+       </tr>
+      <tr>
+       <td><a [routerLink]="['/place-app']" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Place
+            Appointment</a>
+        <td>Netherfell, Whinster
+     </tr>
+      <tr>
+        <td><a [routerLink]="['/view-app']" class="w3-bar-item w3-button w3-hide-small w3-hover-white">View
+            Appointment</a>
+        <td><a href="healthub@gmail.com">healthub@gmail.com</a>
+      </tr>
+      <tr>
+        <td><a [routerLink]="['/query']" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Query</a>
+        <td>Contact : +91 9845678910</td>
+      </tr>
+    </table>
+  </div>
+</html>
